@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="version0.ControllerUI">
+   <children>
+      <ImageView fitHeight="689.0" fitWidth="942.0" layoutX="-41.0" layoutY="-7.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/asadal.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="ValLibroInfo" fontSmoothingType="LCD" layoutX="162.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Info importanti..." wrappingWidth="492.099609375">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="36.0" layoutY="435.0" mnemonicParsing="false" onAction="#exit" text="Esci..." />
+      <ImageView fitHeight="134.0" fitWidth="138.0" layoutX="21.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Red_Book_PNG_Clipart-1063.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="83.0" layoutY="435.0" mnemonicParsing="false" onAction="#confermaValutazione" text="Conferma..." />
+      <Text fontSmoothingType="LCD" layoutX="46.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stile..." wrappingWidth="492.099609375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="46.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contenuto..." wrappingWidth="492.099609375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="46.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gradevolezza..." wrappingWidth="492.099609375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="46.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Originalità..." wrappingWidth="492.099609375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="46.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edizione..." wrappingWidth="492.099609375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="stile" layoutX="318.0" layoutY="216.0" prefHeight="25.0" prefWidth="94.0" />
+      <ChoiceBox fx:id="contenuto" layoutX="318.0" layoutY="255.0" prefHeight="25.0" prefWidth="94.0" />
+      <ChoiceBox fx:id="gradevolezza" layoutX="318.0" layoutY="294.0" prefHeight="25.0" prefWidth="94.0" />
+      <ChoiceBox fx:id="originalita" layoutX="318.0" layoutY="333.0" prefHeight="25.0" prefWidth="94.0" />
+      <ChoiceBox fx:id="edizione" layoutX="318.0" layoutY="372.0" prefHeight="25.0" prefWidth="94.0" />
+      <TextField fx:id="nota_s" layoutX="430.0" layoutY="216.0" prefHeight="25.0" prefWidth="340.0" promptText="Note... (max 256 caratteri)" />
+      <TextField fx:id="nota_c" layoutX="430.0" layoutY="255.0" prefHeight="25.0" prefWidth="340.0" promptText="Note... (max 256 caratteri)" />
+      <TextField fx:id="nota_g" layoutX="430.0" layoutY="294.0" prefHeight="25.0" prefWidth="340.0" promptText="Note... (max 256 caratteri)" />
+      <TextField fx:id="nota_o" layoutX="430.0" layoutY="333.0" prefHeight="25.0" prefWidth="340.0" promptText="Note... (max 256 caratteri)" />
+      <TextField fx:id="nota_e" layoutX="430.0" layoutY="372.0" prefHeight="25.0" prefWidth="340.0" promptText="Note... (max 256 caratteri)" />
+   </children>
+</AnchorPane>
