@@ -10,16 +10,14 @@ DATABASE:
 - Password: root
 
 PER ACCEDERE ALLA CARTELLA:
-  cd Documents\BookRecoomender_FXB2
+  cd Documents\delorenzo_758695
 
 PER INIZIALIZZARE IL SERVER:
 
   psql -U postgres
-  CREATE DATABASE BookRecommender OWNER postgres;
-
-
-Per ricrearlo da zero:
-  createdb BookRecommender
+  inserire la password
+  CREATE DATABASE bookrecommender OWNER postgres;
+  \q
   psql -U postgres -d BookRecommender -f bin/schema.sql
 
 ESECUZIONE:
