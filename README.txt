@@ -4,7 +4,7 @@ REQUISITI:
 - PostgreSQL 17 (installato e in esecuzione)
 
 DATABASE:
-- Nome DB: BookRecommender
+- Nome DB: bookrecommender
 - Porta: 5432
 - Utente: postgres
 - Password: root
@@ -26,3 +26,4 @@ ESECUZIONE:
 	Inserire le credenziali.	
 
 	Avvia ClientEXE.bat
+
